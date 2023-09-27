@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-image: url("image.png");
+    background-size: cover;
+
+}
+header{
+    margin-top: 40px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    margin-left: 50px;
+    background-image: url("Logo.png");
+    background-size: cover;
+    height: 30px;
+    width: 60px;
+}
+.nav-option{
+    margin: 15px;
+    color: rgba(242, 242, 10, 0.911);
+   
+}
+.nav-option ul li{
+    list-style-type: none;
+}
+.nav-option ul  a{
+    margin: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.nav-option ul  a:hover{
+    text-decoration: underline;
+    font-size: 14px;
+}
+.button{
+    height: 30px;
+    width: 60px;
+    background-color: chocolate;
+   color: white;
+    border-radius: 3px;
+    margin-right: 70px;
+    padding-top: 8px;
+    padding-left: 10px;
+    
+    border: none;
+    font-size: 15px;
+}
+.button:hover{
+    background-color: orange;
+    color: black;
+    border: none 
+}
+/* section{
+       align-items: center;
+       margin-top: 100px;
+       font-size: 30px;
+       font-weight: 900;
+       color: rgb(254, 242, 18);
+       margin-left: 400px;
+} */
+section{
+    margin-top: 150px;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: darkorange;
+}
+.herro-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.button2{ 
+    color: white;
+    border:none;
+    border-radius: 3px;
+    background-color: coral;
+    height: 40px;
+    width: 100px;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.button2:hover{
+    background-color:orangered;
+    color: white;
+    border: 1.5px solid black;
+}
+.footer-logo{
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+.scrol-logo{
+    height: 60px;
+    width: 80px;
+   background-image: url("scrool.png");
+   background-size: cover;
+   margin-right: 50px;
+   margin-top: 50px;
+}
